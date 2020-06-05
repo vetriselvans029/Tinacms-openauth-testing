@@ -1,0 +1,36 @@
+{
+  "env": {
+    "GITHUB_CLIENT_ID": "942232a549642aea2bbf",
+    "GITHUB_CLIENT_SECRET": "@github_client_secret",
+    "GTM_ID": "@gtm_id",
+    "HUBSPOT_TEAMS_FORM_ID": "@hubspot_teams_form_id",
+    "HUBSPOT_PORTAL_ID": "@hubspot_portal_id",
+    "MAILCHIMP_ENDPOINT": "@mailchimp_endpoint"
+  },
+  "build": {
+    "env": {
+      "GITHUB_CLIENT_ID": "942232a549642aea2bbf",
+      "REPO_FULL_NAME": "tinacms/tinacms.org",
+      "USE_CONTENT_API": "true",
+      "BASE_BRANCH": "master",
+      "GTM_ID": "@gtm_id",
+      "HUBSPOT_TEAMS_FORM_ID": "@hubspot_teams_form_id",
+      "HUBSPOT_PORTAL_ID": "@hubspot_portal_id",
+      "MAILCHIMP_ENDPOINT": "@mailchimp_endpoint"
+    }
+  },
+  "redirects": [
+    { "source": "/blog/first", "destination": "/blog/announcing-tinacms" },
+    {
+      "source": "/blog/introducing-tina-grande-%F0%9F%8E%89",
+      "destination": "/blog/introducing-tina-grande"
+    },
+    { "source": "/jamstack-conf  ", "destination": "/teams" },
+    { "source": "/smashing-conf", "destination": "/teams" },
+    { "source": "/docs/concepts/sidebar", "destination": "/docs/cms" },
+    { "source": "/docs/concepts/forms", "destination": "/docs/forms" },
+    { "source": "/docs/concepts/fields", "destination": "/docs/fields" },
+    { "source": "/docs/concepts/backends", "destination": "/docs/cms#apis" },
+    { "source": "/docs/concepts/plugins", "destination": "/docs/cms#plugins" }
+  ]
+}
